@@ -15,9 +15,9 @@ helping to identify patterns and factors contributing to fatal crashes. The repo
 ## Techniques & Technology Used
 - **Python (Data Retrieval and Preprocessing):**
     - [Downloaded data from the NHTSA Crash API:](https://crashviewer.nhtsa.dot.gov/CrashAPI)
-      - Endpoint used: [/crashes/GetCaseList?states=1,1&fromYear=""&toYear=""&minNumOfVehicles=1&maxNumOfVehicles=6&format=json`]("/images/getcrashlist.png")
+      - Endpoint used: [/crashes/GetCaseList?states=1,1&fromYear=""&toYear=""&minNumOfVehicles=1&maxNumOfVehicles=6&format=json`]("images/getcrashlist.png")
 	    - Parameters:
-		  - states : [Specify the state numbers for multiple States]("/Resources/USAStates.csv")
+		  - states : [Specify the state numbers for multiple States]("Resources/USAStates.csv")
 		  - FromYear and ToYear: Mention the FromYear and ToYear to include the multiple crash years data.
 		  - minNumOfVehicles and maxNumOfVehicles: Specify the number of vehicle effected by changing minNumOfVehicles and maxNumOfVehicles parameter
 		  
@@ -41,7 +41,7 @@ By utilizing both Python for data collection and cleaning, and Power BI for visu
 ## Folder Structure and Description 
 - Root : Contains the USAVehicalCrashes.pbix
 - Resources: This flooder contains the csv file which are used in the PowerBI report and theem JSON  files.
-- JupyterNotebooks: [Contains the jupyter notebook that is used to download the data from the API site.]("/JupyterNotebooks/DataScraping.ipynb")
+- JupyterNotebooks: [Contains the jupyter notebook that is used to download the data from the API site.]("JupyterNotebooks/DataScraping.ipynb")
 - images : Contain the images used in the report and README.md file.
 
 
